@@ -1,0 +1,12 @@
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\bin\Debug\ByteJame2018.exe.config
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\bin\Debug\ByteJame2018.exe
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\bin\Debug\ByteJame2018.pdb
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\bin\Debug\ByteJame2018.xml
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\obj\Debug\ByteJame2018.vbprojResolveAssemblyReference.cache
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\obj\Debug\ByteJame2018.frmMain.resources
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\obj\Debug\ByteJame2018.Resources.resources
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\obj\Debug\ByteJame2018.vbproj.GenerateResource.cache
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\obj\Debug\ByteJame2018.vbproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\obj\Debug\ByteJame2018.exe
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\obj\Debug\ByteJame2018.xml
+C:\Users\Owner\source\repos\ByteJame2018\ByteJame2018\obj\Debug\ByteJame2018.pdb
