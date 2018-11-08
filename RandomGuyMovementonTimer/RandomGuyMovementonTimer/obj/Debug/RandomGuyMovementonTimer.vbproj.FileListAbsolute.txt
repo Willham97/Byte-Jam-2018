@@ -1,0 +1,12 @@
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\bin\Debug\RandomGuyMovementonTimer.exe.config
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\bin\Debug\RandomGuyMovementonTimer.exe
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\bin\Debug\RandomGuyMovementonTimer.pdb
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\bin\Debug\RandomGuyMovementonTimer.xml
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\obj\Debug\RandomGuyMovementonTimer.vbprojAssemblyReference.cache
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\obj\Debug\RandomGuyMovementonTimer.Form1.resources
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\obj\Debug\RandomGuyMovementonTimer.Resources.resources
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\obj\Debug\RandomGuyMovementonTimer.vbproj.GenerateResource.cache
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\obj\Debug\RandomGuyMovementonTimer.vbproj.CoreCompileInputs.cache
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\obj\Debug\RandomGuyMovementonTimer.exe
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\obj\Debug\RandomGuyMovementonTimer.xml
+C:\Users\stain\source\repos\RandomGuyMovementonTimer\RandomGuyMovementonTimer\obj\Debug\RandomGuyMovementonTimer.pdb
