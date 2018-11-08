@@ -33,7 +33,7 @@
     End Sub
 
     Private Sub tmrRight_Tick(sender As Object, e As EventArgs) Handles tmrRight.Tick
-        Dim Objects() As PictureBox = {picOb2, picOb1, picGround}
+        Dim Objects() As PictureBox = {picOb1, picOb2, picGround}
         For x = 0 To Objects.Length - 1
             Objects(x).Left -= 3
         Next
@@ -47,7 +47,7 @@
     End Sub
 
     Private Sub tmrLeft_Tick(sender As Object, e As EventArgs) Handles tmrLeft.Tick
-        Dim Objects() As PictureBox = {picOb2, picOb1, picGround}
+        Dim Objects() As PictureBox = {picOb1, picOb2, picGround}
         For x = 0 To Objects.Length - 1
             Objects(x).Left += 3
         Next
