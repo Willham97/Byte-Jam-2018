@@ -33,7 +33,7 @@
     End Sub
 
     Private Sub tmrRight_Tick(sender As Object, e As EventArgs) Handles tmrRight.Tick
-        Dim Objects() As PictureBox = {picOb1, picOb2, picGround}
+        Dim Objects() As PictureBox = {picOb2, picOb1, picGround}
         For x = 0 To Objects.Length - 1
             Objects(x).Left -= 3
         Next
@@ -47,7 +47,7 @@
     End Sub
 
     Private Sub tmrLeft_Tick(sender As Object, e As EventArgs) Handles tmrLeft.Tick
-        Dim Objects() As PictureBox = {picOb1, picOb2, picGround}
+        Dim Objects() As PictureBox = {picOb2, picOb1, picGround}
         For x = 0 To Objects.Length - 1
             Objects(x).Left += 3
         Next
@@ -79,13 +79,6 @@
             blnJump = True
         End If
 
-        Dim Objects() As PictureBox = {picOb1, picOb2}
-        For x = 0 To Objects.Length - 1
-            If picPlayer.Bounds.IntersectsWith(Objects(x).Bounds) AndAlso (picPlayer.Top + picPlayer.Height) < (Objects(x).Top + 10) Then
-                tmrDown.Enabled = False
-                blnJump = True
-            End If
-        Next
     End Sub
     Private Sub tmrCheck_Tick(sender As Object, e As EventArgs) Handles tmrCheck.Tick
         If Not picPlayer.Bounds.IntersectsWith(picGround.Bounds) And tmrUp.Enabled = False Then
