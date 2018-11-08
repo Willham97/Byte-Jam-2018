@@ -78,11 +78,27 @@
             tmrDown.Enabled = False
             blnJump = True
         End If
-    End Sub
 
+        Dim Objects() As PictureBox = {picOb1, picOb2}
+        For x = 0 To Objects.Length - 1
+            If picPlayer.Bounds.IntersectsWith(Objects(x).Bounds) AndAlso (picPlayer.Top + picPlayer.Height) < (Objects(x).Top + 10) Then
+                tmrDown.Enabled = False
+                blnJump = True
+            End If
+        Next
+    End Sub
     Private Sub tmrCheck_Tick(sender As Object, e As EventArgs) Handles tmrCheck.Tick
         If Not picPlayer.Bounds.IntersectsWith(picGround.Bounds) And tmrUp.Enabled = False Then
             tmrDown.Enabled = True
         End If
+
+        'Array for objects that let's players jump on top of them - AD
+        Dim Objects() As PictureBox = {picOb1, picOb2}
+        For x = 0 To Objects.Length - 1
+            If picPlayer.Bounds.IntersectsWith(Objects(x).Bounds) And tmrUp.Enabled = False Then
+                tmrDown.Enabled = False
+                blnJump = True
+            End If
+        Next
     End Sub
 End Class
