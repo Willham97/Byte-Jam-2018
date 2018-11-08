@@ -43,12 +43,13 @@ Partial Class frmMain
         '
         'picPlayer
         '
+        Me.picPlayer.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.picPlayer.Image = CType(resources.GetObject("picPlayer.Image"), System.Drawing.Image)
         Me.picPlayer.Location = New System.Drawing.Point(324, 142)
         Me.picPlayer.Margin = New System.Windows.Forms.Padding(4)
         Me.picPlayer.Name = "picPlayer"
         Me.picPlayer.Size = New System.Drawing.Size(236, 284)
-        Me.picPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.picPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.picPlayer.TabIndex = 0
         Me.picPlayer.TabStop = False
         '
@@ -65,23 +66,24 @@ Partial Class frmMain
         '
         'picOb1
         '
-        Me.picOb1.Image = CType(resources.GetObject("picOb1.Image"), System.Drawing.Image)
-        Me.picOb1.Location = New System.Drawing.Point(794, 318)
+        Me.picOb1.BackColor = System.Drawing.Color.Red
+        Me.picOb1.Location = New System.Drawing.Point(662, 48)
         Me.picOb1.Margin = New System.Windows.Forms.Padding(4)
         Me.picOb1.Name = "picOb1"
-        Me.picOb1.Size = New System.Drawing.Size(236, 108)
-        Me.picOb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.picOb1.Size = New System.Drawing.Size(368, 378)
+        Me.picOb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picOb1.TabIndex = 2
         Me.picOb1.TabStop = False
         '
         'picOb2
         '
+        Me.picOb2.BackColor = System.Drawing.Color.Red
         Me.picOb2.Image = CType(resources.GetObject("picOb2.Image"), System.Drawing.Image)
         Me.picOb2.Location = New System.Drawing.Point(1132, 251)
         Me.picOb2.Margin = New System.Windows.Forms.Padding(4)
         Me.picOb2.Name = "picOb2"
-        Me.picOb2.Size = New System.Drawing.Size(236, 175)
-        Me.picOb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.picOb2.Size = New System.Drawing.Size(376, 175)
+        Me.picOb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picOb2.TabIndex = 3
         Me.picOb2.TabStop = False
         '
